@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 110%;
     background-color: #f4f1de;
@@ -48,4 +48,51 @@ li {
 h1 {
     line-height: 2px;
 
+} */
+/* .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    z-index: 100;
 }
+.skip-link:focus {
+    top: 10px;
+} */
+
+/* Navigation styling */
+nav {
+    display: inline-block;
+    width: 80%;
+    background-color: #81b29a;
+    padding: 10px;
+    text-align: center;
+}
+nav img {
+    width: 10%;
+}
+
+/* Grid class styling */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.grid img {
+    width: 100%;
+}
+
+/* Flex class styling */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Commenting out existing li styling */
+/* li { display: contents; width: 200px; } */
